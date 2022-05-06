@@ -20,6 +20,23 @@ h2{
     font-family: 'MTCORSAVA';
 
 }
+.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double rgba(255, 0, 157, 0.329);
+    color: rgba(255, 0, 157, 0.267);
+    text-align: center;
+}
+.style-eight:after {
+    content: "Beautiful";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
 /*----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------*/
@@ -32,7 +49,8 @@ h2{
        border-bottom: 5px outset #C54291;
        background-color: #ffffff;
        display: flex;
-       position: fixed;
+       position: sticky;
+       top: 0;
 
        z-index: 10;
    }
@@ -92,8 +110,7 @@ h2{
     justify-content: center;
     align-items: center;
 
-    position: relative;
-    top: 80px;
+    
     
     background-image: url(../Assets/Banners/Banner.png);
     background-size: 100% 100%;
@@ -112,6 +129,45 @@ h2{
     padding: 5px;
 }
 
+/*SECTION HOME*/
+.main-home{
+    width: 100%;
+    height: 50vh;
+    color: #534741;
+}
+.art-home{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    background-image: url(../Assets/Logos/logoFaceGris.svg);
+    background-size: 100% 100%;
+}
+.art-home img{
+    height: 250px;
+}
+
+.div-link{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.div-link a{
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    color: #80004c;
+    padding: 15px;
+}
+
+
+
    
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -122,7 +178,8 @@ h2{
        border-bottom: 5px outset #C54291;
        background-color: #ffffff;
        display: flex;
-       position: fixed;
+       position: sticky;
+       top: 0;
        z-index: 10;
    }
    .cont-logoNav{
@@ -182,8 +239,7 @@ h2{
     justify-content: center;
     align-items: center;
 
-    position: relative;
-    top: 80px;
+   
     
     background-image: url(../Assets/Banners/Banner.png);
     background-size: 100% 100%;
@@ -201,6 +257,42 @@ h2{
     border-radius: 15px;
     padding: 5px;
 }
+/*SECTION HOME*/
+.main-home{
+    width: 100%;
+    height: 50vh;
+    color: #534741;
+}
+.art-home{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    background-image: url(../Assets/Logos/logoFaceGris.svg);
+    background-size: 100% 100%;
+}
+.art-home img{
+    height: 250px;
+}
+
+.div-link{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.div-link a{
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    color: #80004c;
+    padding: 15px;
+}
 
    
 }
@@ -213,7 +305,8 @@ h2{
         border-bottom: 5px outset #C54291;
         background-color: #ffffff;
         display: flex;
-        position: fixed;
+        position: sticky;
+        top: 0;
         z-index: 10;
     }
     .cont-logoNav{
@@ -261,6 +354,11 @@ h2{
     .btn-nav{
         display: none;
     }
+    /*BANNER*/
+        .banner{
+            width: 100%;
+            
+        }
 
      /*BANNER*/
      .div-banner{
@@ -275,8 +373,7 @@ h2{
         justify-content: center;
         align-items: center;
 
-        position: relative;
-        top: 80px;
+      
         
         background-image: url(../Assets/Banners/Banner.png);
         background-size: 100% 100%;
@@ -294,6 +391,42 @@ h2{
         border-radius: 15px;
         padding: 5px;
     }
+/*SECTION HOME*/
+.main-home{
+    width: 100%;
+    height: 50vh;
+    color: #534741;
+}
+.art-home{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    background-image: url(../Assets/Logos/logoFaceGris.svg);
+    background-size: 100% 100%;
+}
+.art-home img{
+    height: 250px;
+}
+
+.div-link{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.div-link a{
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    color: #80004c;
+    padding: 15px;
+}
 
     
 }
@@ -305,117 +438,154 @@ h2{
 /*----------------------------------------------------------------------*/
 /*MEDIA QUERY MOVILES*/
 @media (min-width: 576px) and (max-width: 768px) {
-    /*BARRA DE NAVEGACION*/
-    .head-cont{
+   /*BARRA DE NAVEGACION*/
+   .head-cont{
       
-        width: 100%;
-        height: 75px;
-        border-bottom: 5px outset #C54291;
-        background-color: #ffffff;
-        display: flex;
-        position: fixed;
-        z-index: 10;
-        
-    }
-    /*DIV LOGO NAVEGADOR*/
-    .cont-logoNav{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .cont-logoNav h2{
-        display: none;
-    }
-
-    .cont-logoNav img{
-        height: 75px;
-        
-    }
-    /*CONTENDEDOR NAVEGADOR*/
-
-    .nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 80px;
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        background-color: #ffffff;
-        right: 100%;
-        transition: all 2s ease-in-out
-        
-    }
-        .nav_visibilidad{
-            right: 0;   
-        }
-    .nav-items{
-        width: 100%;
-        
-    }
-    .nav-item{
-        border: 2px solid #C54291;
-        border-radius: 40px;
-        margin: 20px;
-        padding: 15px;
-        
-    }
-    .nav-items img{
-        height: 150px;
-    }
-    .link-nav{
-        color: #80004c;
-    }
-    i{
-        padding: 5px;
-    }
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    border-bottom: 5px outset #C54291;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     
-
-
-    /*BOTON BARRA DE NAVEGADOR*/
-    .btn-nav{
-        position: absolute;
-        line-height: 75px;
-        margin-left: 25px;
-        border-style: none;
-        background: none;
-        color: #C54291;
-        font-size: 25px;
+}
+/*DIV LOGO NAVEGADOR*/
+.cont-logoNav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     
-    }
+}
 
-     /*BANNER*/
-     .div-banner{
-        width: 100%;
-        height: 25vh;
+.cont-logoNav h2{
+    display: none;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.cont-logoNav img{
+    height: 75px;
+    
+}
+/*CONTENDEDOR NAVEGADOR*/
 
-        position: relative;
-        top: 80px;
-        
-        background-image: url(../Assets/Banners/Banner.png);
-        background-size: 100% 100%;
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    right: 100%;
+    transition: all 2s ease-in-out
+    
+}
+    .nav_visibilidad{
+        right: 0;   
     }
-    .div-banner h2{
-        color: #ffffff;
-    }
+.nav-items{
+    width: 100%;
+    
+}
+.nav-item{
+    border: 2px solid #C54291;
+    border-radius: 40px;
+    margin: 20px;
+    padding: 15px;
+    
+}
+.nav-items img{
+    height: 150px;
+}
+.link-nav{
+    color: #80004c;
+}
+i{
+    padding: 5px;
+}
 
-    .div-banner img{
-        height: 80px;
-    }
-    .div-banner a{
-        color: #ffffff;
-        border-style: solid;
-        border-radius: 15px;
-        padding: 5px;
-    }
+/*BOTON BARRA DE NAVEGADOR*/
+.btn-nav{
+    position: absolute;
+    line-height: 75px;
+    margin-left: 25px;
+    border-style: none;
+    background: none;
+    color: #C54291;
+    font-size: 25px;
+
+}
+
+/*BANNER*/
+.banner{
+    width: 100%;
+    
+}
+.div-banner{
+    width: 100%;
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    background-image: url(../Assets/Banners/Banner.png);
+    background-size: 100% 100%;
+}
+.div-banner h2{
+    color: #ffffff;
+}
+
+.div-banner img{
+    height: 80px;
+}
+.div-banner a{
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/*SECTION HOME*/
+.main-home{
+    width: 100%;
+    height: 50vh;
+    color: #534741;
+}
+.art-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    background-image: url(../Assets/Logos/logoFaceGris.svg);
+    background-size: 100% 100%;
+}
+.art-home img{
+    height: 250px;
+}
+
+.div-link{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.div-link a{
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    color: #80004c;
+    padding: 15px;
+}
 
     
 
@@ -432,7 +602,8 @@ h2{
         background-color: #ffffff;
         border-bottom: 5px outset #C54291;
         display: flex;
-        position: fixed;
+        position: sticky;
+        top: 0;
         z-index: 10;
         
     }
@@ -505,6 +676,10 @@ h2{
     }
 
     /*BANNER*/
+    .banner{
+        width: 100%;
+        
+    }
     .div-banner{
         width: 100%;
         height: 25vh;
@@ -514,8 +689,7 @@ h2{
         justify-content: center;
         align-items: center;
 
-        position: relative;
-        top: 80px;
+        
         
         background-image: url(../Assets/Banners/Banner.png);
         background-size: 100% 100%;
@@ -533,6 +707,44 @@ h2{
         border-radius: 15px;
         padding: 5px;
     }
+
+    /*SECTION HOME*/
+    .main-home{
+        width: 100%;
+        height: 50vh;
+        color: #534741;
+    }
+    .art-home{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+
+        background-image: url(../Assets/Logos/logoFaceGris.svg);
+        background-size: 100% 100%;
+    }
+    .art-home img{
+        height: 250px;
+    }
+
+    .div-link{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .div-link a{
+        margin-right: 25px;
+        border-style: solid;
+        border-radius: 25px;
+        padding: 5px;
+        color: #80004c;
+        padding: 15px;
+    }
+
+    
+
 
 }
 
