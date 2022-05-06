@@ -30,8 +30,11 @@ h2{
        width: 100%;
        height: 75px;
        border-bottom: 5px outset #C54291;
+       background-color: #ffffff;
        display: flex;
        position: fixed;
+
+       z-index: 10;
    }
    .cont-logoNav{
        display: flex;
@@ -76,6 +79,38 @@ h2{
    .btn-nav{
        display: none;
    }
+   /*BANNER*/
+   .div-banner{
+    width: 65%;
+    height: 30vh;
+
+    margin: auto;
+    padding: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 80px;
+    
+    background-image: url(../Assets/Banners/Banner.png);
+    background-size: 100% 100%;
+}
+.div-banner h2{
+    color: #ffffff;
+}
+
+.div-banner img{
+    height: 80px;
+}
+.div-banner a{
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
 
    
 }
@@ -85,8 +120,10 @@ h2{
        width: 100%;
        height: 75px;
        border-bottom: 5px outset #C54291;
+       background-color: #ffffff;
        display: flex;
        position: fixed;
+       z-index: 10;
    }
    .cont-logoNav{
        display: flex;
@@ -132,6 +169,39 @@ h2{
        display: none;
    }
 
+   /*BANNER*/
+   .div-banner{
+    width: 65%;
+    height: 30vh;
+
+    margin: auto;
+    padding: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 80px;
+    
+    background-image: url(../Assets/Banners/Banner.png);
+    background-size: 100% 100%;
+}
+.div-banner h2{
+    color: #ffffff;
+}
+
+.div-banner img{
+    height: 80px;
+}
+.div-banner a{
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
    
 }
 
@@ -141,8 +211,10 @@ h2{
         width: 100%;
         height: 75px;
         border-bottom: 5px outset #C54291;
+        background-color: #ffffff;
         display: flex;
         position: fixed;
+        z-index: 10;
     }
     .cont-logoNav{
         display: flex;
@@ -190,6 +262,39 @@ h2{
         display: none;
     }
 
+     /*BANNER*/
+     .div-banner{
+        width: 65%;
+        height: 30vh;
+
+        margin: auto;
+        padding: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        top: 80px;
+        
+        background-image: url(../Assets/Banners/Banner.png);
+        background-size: 100% 100%;
+    }
+    .div-banner h2{
+        color: #ffffff;
+    }
+
+    .div-banner img{
+        height: 80px;
+    }
+    .div-banner a{
+        color: #ffffff;
+        border-style: solid;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
     
 }
 
@@ -206,8 +311,10 @@ h2{
         width: 100%;
         height: 75px;
         border-bottom: 5px outset #C54291;
+        background-color: #ffffff;
         display: flex;
         position: fixed;
+        z-index: 10;
         
     }
     /*DIV LOGO NAVEGADOR*/
@@ -215,8 +322,7 @@ h2{
         width: 100%;
         display: flex;
         justify-content: center;
-        position: relative;
-        top: 20px;
+        
     }
 
     .cont-logoNav h2{
@@ -234,7 +340,7 @@ h2{
         flex-direction: column;
         align-items: center;
         position: fixed;
-        top: 90px;
+        top: 80px;
         width: 100%;
         height: 100vh;
         text-align: center;
@@ -279,6 +385,36 @@ h2{
         color: #C54291;
         font-size: 25px;
     
+    }
+
+     /*BANNER*/
+     .div-banner{
+        width: 100%;
+        height: 25vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        top: 80px;
+        
+        background-image: url(../Assets/Banners/Banner.png);
+        background-size: 100% 100%;
+    }
+    .div-banner h2{
+        color: #ffffff;
+    }
+
+    .div-banner img{
+        height: 80px;
+    }
+    .div-banner a{
+        color: #ffffff;
+        border-style: solid;
+        border-radius: 15px;
+        padding: 5px;
     }
 
     
@@ -293,9 +429,11 @@ h2{
       
         width: 100%;
         height: 75px;
+        background-color: #ffffff;
         border-bottom: 5px outset #C54291;
         display: flex;
         position: fixed;
+        z-index: 10;
         
     }
     /*DIV LOGO NAVEGADOR*/
@@ -303,8 +441,7 @@ h2{
         width: 100%;
         display: flex;
         justify-content: center;
-        position: relative;
-        top: 20px;
+        
     }
 
     .cont-logoNav h2{
@@ -322,7 +459,7 @@ h2{
         flex-direction: column;
         align-items: center;
         position: fixed;
-        top: 90px;
+        top: 80px;
         width: 100%;
         height: 100vh;
         text-align: center;
@@ -355,8 +492,6 @@ h2{
         padding: 5px;
     }
     
-
-
     /*BOTON BARRA DE NAVEGADOR*/
     .btn-nav{
         position: absolute;
@@ -369,8 +504,35 @@ h2{
     
     }
 
-    
+    /*BANNER*/
+    .div-banner{
+        width: 100%;
+        height: 25vh;
 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        top: 80px;
+        
+        background-image: url(../Assets/Banners/Banner.png);
+        background-size: 100% 100%;
+    }
+    .div-banner h2{
+        color: #ffffff;
+    }
+
+    .div-banner img{
+        height: 80px;
+    }
+    .div-banner a{
+        color: #ffffff;
+        border-style: solid;
+        border-radius: 15px;
+        padding: 5px;
+    }
 
 }
 
