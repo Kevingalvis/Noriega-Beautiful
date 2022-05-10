@@ -165,7 +165,51 @@ h2{
     color: #80004c;
     padding: 15px;
 }
+/*SECTION PERFIL*/
+.sect-perfil{
+    width: 100%;
+    background-image: url(../Assets/Banners/imgBeautiful.png);
+    background-size: 100% 100%;
+}
+.art-perfil{
+    width: 80%;
+    height: auto;
 
+    margin: auto;
+    padding: auto;
+  
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.art-perfil img{
+    height: 150px;
+}
+.div-perfil{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.div-perfil h2{
+    padding: 5px;
+    margin: 5px;
+}
+.div-perfil p{
+
+    padding: 15px;
+    font-family: 'MTCORSAVA';
+    font-weight: 500;
+    font-size: 25px;
+        
+}
 
 
    
@@ -292,6 +336,52 @@ h2{
     padding: 5px;
     color: #80004c;
     padding: 15px;
+}
+
+/*SECTION PERFIL*/
+.sect-perfil{
+    width: 100%;
+    background-image: url(../Assets/Banners/imgBeautiful.png);
+    background-size: 100% 100%;
+}
+.art-perfil{
+    width: 80%;
+    height: auto;
+
+    margin: auto;
+    padding: auto;
+  
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.art-perfil img{
+    height: 150px;
+}
+.div-perfil{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.div-perfil h2{
+    padding: 5px;
+    margin: 5px;
+}
+.div-perfil p{
+
+    padding: 15px;
+    font-family: 'MTCORSAVA';
+    font-weight: 500;
+    font-size: 25px;
+        
 }
 
    
@@ -426,6 +516,52 @@ h2{
     padding: 5px;
     color: #80004c;
     padding: 15px;
+}
+
+/*SECTION PERFIL*/
+.sect-perfil{
+    width: 100%;
+    background-image: url(../Assets/Banners/imgBeautiful.png);
+    background-size: 100% 100%;
+}
+.art-perfil{
+    width: 80%;
+    height: auto;
+
+    margin: auto;
+    padding: auto;
+  
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.art-perfil img{
+    height: 150px;
+}
+.div-perfil{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.div-perfil h2{
+    padding: 5px;
+    margin: 5px;
+}
+.div-perfil p{
+
+    padding: 15px;
+    font-family: 'MTCORSAVA';
+    font-weight: 500;
+    font-size: 25px;
+        
 }
 
     
@@ -587,6 +723,38 @@ i{
     padding: 15px;
 }
 
+/*SECTION PERFIL*/
+.sect-perfil{
+    width: 100%;
+}
+.art-perfil{
+    width: 100%;
+    height: auto;
+    background-image: url(../Assets/Banners/imgBeautiful.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.art-perfil img{
+    height: 150px;
+}
+.div-perfil{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.div-perfil p{
+
+    padding: 5px;
+    font-family: 'MTCORSAVA';
+    font-weight: 500;
+    font-size: 25px;
+        
+}
+
     
 
 
@@ -742,8 +910,36 @@ i{
         color: #80004c;
         padding: 15px;
     }
+    /*SECTION PERFIL*/
+    .sect-perfil{
+        width: 100%;
+    }
+    .art-perfil{
+        width: 100%;
+        height: auto;
+        background-image: url(../Assets/Banners/imgBeautiful.png);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
 
+    }
+
+    .art-perfil img{
+        height: 150px;
+    }
+    .div-perfil{
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .div-perfil p{
     
+        padding: 5px;
+        font-family: 'MTCORSAVA';
+        font-weight: 500;
+            
+    }
 
 
 }
