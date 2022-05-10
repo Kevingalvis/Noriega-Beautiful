@@ -97,6 +97,39 @@ h2{
    .btn-nav{
        display: none;
    }
+    /*NAVEGADOR  REDES SOCIALES*/
+    .sect-redes{
+        width: 100%;
+        position: absolute;
+        z-index: 9;
+    }
+    .nav-redes{
+        width: 100%;
+      
+    }
+    .items-redes{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        position: fixed;
+        
+    }
+    .item-redes{
+        background-color: #80004c;
+        padding: 10px;
+        border-style: solid;
+        border-color: #ffffff;
+    }
+
+    .items-redes a{
+        color: #ffffff;
+        
+       
+    }
+    .items-redes a > i{
+        margin: 0;
+    }
+
    /*BANNER*/
    .div-banner{
     width: 65%;
@@ -269,6 +302,38 @@ h2{
    .btn-nav{
        display: none;
    }
+    /*NAVEGADOR  REDES SOCIALES*/
+    .sect-redes{
+        width: 100%;
+        position: absolute;
+        z-index: 9;
+    }
+    .nav-redes{
+        width: 100%;
+      
+    }
+    .items-redes{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        position: fixed;
+        
+    }
+    .item-redes{
+        background-color: #80004c;
+        padding: 10px;
+        border-style: solid;
+        border-color: #ffffff;
+    }
+
+    .items-redes a{
+        color: #ffffff;
+        
+       
+    }
+    .items-redes a > i{
+        margin: 0;
+    }
 
    /*BANNER*/
    .div-banner{
@@ -443,6 +508,39 @@ h2{
    
     .btn-nav{
         display: none;
+    }
+
+     /*NAVEGADOR  REDES SOCIALES*/
+     .sect-redes{
+        width: 100%;
+        position: absolute;
+        z-index: 9;
+    }
+    .nav-redes{
+        width: 100%;
+      
+    }
+    .items-redes{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        position: fixed;
+        
+    }
+    .item-redes{
+        background-color: #80004c;
+        padding: 10px;
+        border-style: solid;
+        border-color: #ffffff;
+    }
+
+    .items-redes a{
+        color: #ffffff;
+        
+       
+    }
+    .items-redes a > i{
+        margin: 0;
     }
     /*BANNER*/
         .banner{
@@ -654,6 +752,39 @@ i{
     font-size: 25px;
 
 }
+ /*NAVEGADOR  REDES SOCIALES*/
+ .sect-redes{
+    width: 100%;
+  
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+.nav-redes{
+    width: 100%;
+  
+}
+.items-redes{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.items-redes a{
+    padding: 15px;
+    border-style: solid;
+    background-color: #80004c;   
+    color: #ffffff;
+    
+}
+.items-redes a > i{
+    position: relative;
+    bottom: 5px;
+}
 
 /*BANNER*/
 .banner{
@@ -842,6 +973,42 @@ i{
         font-size: 25px;
     
     }
+
+    /*NAVEGADOR  REDES SOCIALES*/
+    .sect-redes{
+        width: 100%;
+      
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 9;
+    }
+    .nav-redes{
+        width: 100%;
+      
+    }
+    .items-redes{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .items-redes a{
+        padding: 15px;
+        border-style: solid;
+        background-color: #80004c;   
+        color: #ffffff;
+        
+    }
+    .items-redes a > i{
+        position: relative;
+        bottom: 5px;
+    }
+
+
 
     /*BANNER*/
     .banner{
