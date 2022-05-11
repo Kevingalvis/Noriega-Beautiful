@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- BARRA DE NAVEGACION PRINCIPAL -->
-    <header class="head-cont">
+    <header class="head-cont" >
         <div class="cont-logoNav">
             <img src="Assets/Logos/logoFaceColor.svg" alt="LogoNav">
             <h2>Noriega-Beautiful</h2>
@@ -17,9 +17,9 @@
         <nav class="nav">
             <ol class="nav-items">
                 <img src="Assets/Logos/logoColor.svg" alt="Logo">
-                <li class="nav-item"><a href="#" class="link-nav home"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li class="nav-item"><a href="#" class="link-nav acerca"><i class="fa-solid fa-child-dress"></i>¿Acerca de mi?</a></li>
-                <li class="nav-item"><a href="#" class="link-nav trabajo"><i class="fa-solid fa-briefcase"></i>Trabajos</a></li>
+                <li class="nav-item"><a href="index.html#home" class="link-nav home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li class="nav-item"><a href="index.html#acerca" class="link-nav acerca"><i class="fa-solid fa-child-dress"></i>¿Acerca de mi?</a></li>
+                <li class="nav-item"><a href="index.html#projects" class="link-nav trabajo"><i class="fa-solid fa-briefcase"></i>Trabajos</a></li>
                 <li class="nav-item"><a href="#" class="link-nav"><i class="fa-solid fa-address-book"></i>Contactame</a></li>
             </ol>
         </nav>
@@ -29,26 +29,26 @@
     <section class="sect-redes">
         <nav class="nav-redes">
             <ol class="items-redes">
-                <li class="item-redes"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li class="item-redes"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li class="item-redes"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li class="item-redes"><a href="https://walink.co/60c4b5" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="item-redes"><a href="https://www.facebook.com/angela.m.noriega.9" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="item-redes" target="_blank"><a href="https://www.tiktok.com/@noriega...angela?lang=es"><i class="fa-brands fa-tiktok"></i></a></li>
             </ol>
         </nav>
     </section>
     <!-- BANNER-->
-    <div class="banner">
+    <div class="banner" id="home" >
         <div class="div-banner">
             <h2>Excelencia y Servicio</h2>
             <img src="Assets/Logos/logoWhite.svg" alt="logo">
-            <a href="#">Solicitar Servicio</a>
+            <a href="#" class="btn-soli">Solicitar Servicio</a>
         </div>
     </div>
     <!-- HOME -->
-    <main class="main-home">
+    <main class="main-home" >
         <article class="art-home">
             <img src="Assets/Logos/logoColor.svg" alt="logo">
             <div class="div-link">
-                <a href="#">Solicitar Servicio</a>
+                <a href="#" class="btn-soli">Solicitar Servicio</a>
             </div>
         </article>
     </main>
@@ -56,7 +56,7 @@
     <hr class="style-eight"/>
    <!-- PERFIL -->
 
-   <section class="sect-perfil">
+   <section class="sect-perfil" id="acerca">
        <article class="art-perfil">
            <img src="Assets/Logos/logoWhite.svg" alt="logo">
            <div class="div-perfil">
@@ -64,9 +64,9 @@
                <p>Noriega Beautiful es un servicio de belleza a domicilio, llevando a nuestros clientes los mejores profesionales comprometidos en brindar la mejor experiencia en el manejo de productos de belleza de mas alta calidad, sin dejar tu hogar</p>
            </div>
        </article>
-   </section>
+   </section >
 
-   <section class="sect-project">
+   <section class="sect-project" id="projects">
        <h2>Mis Trabajos</h2>
        <p>Aqui puedes ver algunos de nuestros trabajos realizados!</p>
        <article class="art-project">

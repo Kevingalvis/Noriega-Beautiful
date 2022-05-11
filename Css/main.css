@@ -8,6 +8,10 @@
 	outline: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face{
     font-family: 'MTCORSAVA';
     src: url(../Assets/Fonts/MTCORSVA.TTF);
@@ -36,6 +40,13 @@ h2{
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+}
+
+.btn-soli:hover{
+    background-color: #80004c;
+    color: #ffffff;
+    transition: all 1s ease-in-out
+
 }
 /*----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------*/
