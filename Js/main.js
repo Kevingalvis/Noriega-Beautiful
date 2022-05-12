@@ -4,6 +4,10 @@ const $contNav = document.querySelector(".nav");
 const $linkHome = document.querySelector(".home");
 const $linkAcerca = document.querySelector(".acerca");
 const $linkWork = document.querySelector(".trabajo");
+// MODAL
+const $linkContact = document.querySelector(".contact");
+const $sectModal =  document.querySelector(".sect-modal");
+const $linkClose = document.querySelector(".modal-close");
 
 
 
@@ -21,4 +25,15 @@ $linkAcerca.addEventListener("click",()=>{
 });
 $linkWork.addEventListener("click",()=>{
     $contNav.classList.toggle("nav_visibilidad");
+});
+
+//FUNCIONALIDAD MODAL
+
+$linkContact.addEventListener("click",(e)=>{
+    e.preventDefault();
+    $sectModal.classList.add("sect-modal_visual");
+});
+$linkClose.addEventListener("click",(e)=>{
+    e.preventDefault();
+    $sectModal.classList.remove("sect-modal_visual");
 });
