@@ -12,6 +12,7 @@ const $linkClose = document.querySelector(".modal-close");
 
 
 
+
 //FUNCIONALIDAD BARRA DE NAVEGACION
 
 $btnNav.addEventListener("click",()=>{
@@ -37,3 +38,5 @@ $linkClose.addEventListener("click",(e)=>{
     e.preventDefault();
     $sectModal.classList.remove("sect-modal_visual");
 });
+
+
